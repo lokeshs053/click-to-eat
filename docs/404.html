@@ -1,0 +1,12 @@
+<script>
+  const path = window.location.pathname.slice(1).split("/")[1];
+  localStorage.setItem('path', path);
+  console.log(path)
+
+  // if(!path.includes("register")){
+  //   window.location.href=path.split("/")[1]
+  // } else {
+  // window.location.href='/click-to-eat';   
+  // }
+  window.location.href='/click-to-eat';   
+</script>
